@@ -13,6 +13,3 @@ b) Right click and select Run As -> 1 Cucumber Feature
 c) Output can be seen in the Console window.
 
 NOTE : to run the 3rd feature file please enter the expected total while running it in the Console window and then hit enter. first and second feature file can be run without any manual entry of test data.
-
-
-
