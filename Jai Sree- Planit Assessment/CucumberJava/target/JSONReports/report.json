@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-04T06:02:19.817Z",
+        "line": 3,
+        "name": "Validate if user can see the error messages without filling the mandatory fields",
+        "description": "",
+        "id": "submission-page-error-validation;validate-if-user-can-see-the-error-messages-without-filling-the-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11922931000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "chrome browser is open",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Planit Testing Website",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.user_is_on_Planit_Testing_Website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2291010000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on contact page from the home page",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.User_clicks_on_Buy_energy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325550000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on submit button",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.click_on_reset_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99253000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify error messages",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.verify_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16750097000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "populate mandatory fields",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.populate_mandatory_fields(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "forename",
+                  "Jai"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "jkasera7@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "message",
+                  "Planit Test Case 1 Success"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56053000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validate errors are gone",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.validate_errors_are_gone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147080000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close the Browser",
+            "match": {
+              "location": "StepDefinitions.planitTestCase1.Close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Submission page error validation",
+    "description": "",
+    "id": "submission-page-error-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PlanitTesting.feature",
+    "tags": []
+  }
+]
