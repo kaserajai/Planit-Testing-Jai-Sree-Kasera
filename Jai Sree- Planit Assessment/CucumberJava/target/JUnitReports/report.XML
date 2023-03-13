@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.916">
+    <testcase classname="Submission page error validation" name="Validate if user can see the error messages without filling the mandatory fields" time="31.697">
+        <system-out><![CDATA[Given chrome browser is open................................................passed
+And user is on Planit Testing Website.......................................passed
+And user clicks on contact page from the home page..........................passed
+And click on submit button..................................................passed
+Then verify error messages..................................................passed
+And populate mandatory fields...............................................passed
+And validate errors are gone................................................passed
+And close the Browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
